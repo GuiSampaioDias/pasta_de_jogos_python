@@ -1,3 +1,16 @@
+# -------------------------------------------------
+
+# Desafio : Dilema dos Prisioneiros
+
+# Autor: Guilherme Sampaio Dias
+
+# Fonte do desafio: Professor 
+# Desafio proposto por:
+
+# Data: 20/08/2023
+# -------------------------------------------------
+
+
 from random import randint
 from time import sleep 
 TXT = 0
@@ -7,6 +20,9 @@ CXC = 0
 um =  randint(1, 2)
 dois = 0
 ingenuo = randint(1, 2)
+estrategia = 0
+coopera = True
+
 
 def finalizado(a, b, c):
     total = a + b + c
@@ -41,9 +57,6 @@ def cxc():
     print('\n\n----------------------------------------------------------')
     return "Ambos ficaram calados. Pena minima de 2 anos para cada um."
 
-estrategia = 0
-coopera = True
-
 
 print("\n1- Olho por olho\n2- Olho por dois olhos")
 print("3- Não iterado\n4- Retaliador permanente\n5-Provador Ingênuo")
@@ -52,7 +65,6 @@ print()
 
 
 while True:
-
     
     if estrategia == 0:
         estrategia = input("Digite o número da sua estratégia: ")
