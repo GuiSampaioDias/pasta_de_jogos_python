@@ -1,4 +1,19 @@
-# Jogo da velha easy autoria Guilherme Sampaio Dias
+#--------------------------------------------------
+
+#          Jogo da velha easy 
+
+# Autor: Guilherme Sampaio Dias
+
+# Desafio proposto pelo: Professor Lúcio Nunes
+#                              lucio-nunes(github)
+
+
+# Código criado para apresentar para as crianças do 
+# colégio Nossa Senhora de Fátima
+
+# Data: 05/23
+
+#--------------------------------------------------
 
 from random import randint
 from time import sleep

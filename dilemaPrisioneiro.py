@@ -5,7 +5,7 @@
 # Autor: Guilherme Sampaio Dias
 
 # Fonte do desafio: Professor 
-# Desafio proposto por:
+# Desafio proposto por: Fernando Neves Lins
 
 # Data: 20/08/2023
 # -------------------------------------------------
